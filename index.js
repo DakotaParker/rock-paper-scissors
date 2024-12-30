@@ -63,7 +63,7 @@ function startRound(playerChoice, computerInput) {
 function playGame() {
     let roundHistory = [];
     
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i >= 0; i++) {
         const playerSelection = getPlayerChoice(); 
         if (!playerSelection) {
             console.log("Invalid user input");
