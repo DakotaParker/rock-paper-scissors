@@ -2,11 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="width=device-width, initial-scale=1.0">
     <title>Rock, Paper, Scissors</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="headOfPage">
+        <ul style="list-style-type:none;" class="nav">
+            <li class="subTextHeadingLeft">
+                <div class="score">Computer <div id="computer-score">0</div></div>
+            </li>
+            <li class="headText">Rock Paper Scissors</li>
+            <li class="subTextHeadingRight">
+                <div class="score">Player <div id="player-score">0</div></div>
+            </li>
+        </ul>
+    </div>
+    <div class="bodyOfPage">
+        <h1 class="bodyHead"><br>Rules:</h1>
+        <p class="rulesText">
+            The rules are simple. Rock beats Scissors. Scissors beats Paper. Paper beats Rock.
+            <br>Good luck! Click any option to start the match.
+        </p>
+        <div class="options">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+    </div>
+    <div class="bottomOfPage"></div>
+
     <script src="index.js"></script>
 </body>
 </html>
